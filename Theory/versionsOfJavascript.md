@@ -1,4 +1,4 @@
-## [<](https://github.com/piyushahir28/JavaScript-Essentials) JavaScript Versions
+## JavaScript Versions
 
 - ECMAScript 1 (ES1) (1997): The first standardized version of JavaScript, based on the language's original implementation by Netscape. It laid the foundation for subsequent versions of the language.
 

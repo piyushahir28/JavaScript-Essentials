@@ -4,9 +4,9 @@ JavaScript from Zero to Hero
 
 ### Topics
 
-- [History](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/historyAndFeatures.md)
+[History](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/historyAndFeatures.md) | [Versions](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/versionsOfJavascript.md)
 
-- [Versions](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/versionsOfJavascript.md)
+---
 
 ### Basic Terminologies
 

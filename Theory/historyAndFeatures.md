@@ -17,3 +17,5 @@
 - Cross-Browser Compatibility: One challenge of JavaScript development is ensuring cross-browser compatibility, as different browsers may interpret JavaScript code slightly differently. Developers often use feature detection and polyfills to address compatibility issues and ensure that their code works consistently across different browsers.
 
 - Security Considerations: Since JavaScript code runs on the client-side, it's important to consider security vulnerabilities such as cross-site scripting (XSS) and cross-site request forgery (CSRF). Developers must implement proper input validation, sanitization, and security mechanisms to protect against these threats.
+
+- Dynamically Typed: JavaScript is dynamically typed, meaning you don't need to explicitly specify the data type of a variable. Variables can hold various types of data.

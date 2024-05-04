@@ -4,9 +4,9 @@ JavaScript from Zero to Hero
 
 ### Topics
 
-[History](/Theory/historyAndFeatures.md) | [Versions](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/versionsOfJavascript.md) | [Variables (Var, Let and Const)](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/variables.md) | [Hoisting](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/hoisting.md)
+[History](/Theory/historyAndFeatures.md) | [Versions](/Theory/versionsOfJavascript.md) | [Variables (Var, Let and Const)](/Theory/variables.md) | [Hoisting](/Theory/hoisting.md) | [Objects](/Theory/objects.md)
 
-[Miscellaneous](https://github.com/piyushahir28/JavaScript-Essentials/blob/main/Theory/miscellaneous.md)
+[Miscellaneous](/Theory/miscellaneous.md)
 
 ---
 

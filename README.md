@@ -2,9 +2,9 @@
 
 JavaScript from Zero to Hero
 
-### Topics
+## Topics
 
-[History](/Theory/historyAndFeatures.md) | [Versions](/Theory/versionsOfJavascript.md) | [Variables (Var, Let and Const)](/Theory/variables.md) | [Hoisting](/Theory/hoisting.md) | [Objects](/Theory/objects.md)
+[History](/Theory/historyAndFeatures.md) | [Versions](/Theory/versionsOfJavascript.md) | [Variables (Var, Let and Const)](/Theory/variables.md) | [Hoisting](/Theory/hoisting.md) | [Objects](/Theory/objects.md) | [new](/Theory/newKeyword.md)
 
 [Miscellaneous](/Theory/miscellaneous.md)
 

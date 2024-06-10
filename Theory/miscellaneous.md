@@ -5,3 +5,31 @@
 - **Lexical Scope:** Lexical scope in JavaScript refers to the scope resolution of variables based on the physical structure of the code. In simpler terms, lexical scope is determined by where variables and blocks of scope are authored in the code.
   When you define a variable or a function inside another function or block of code, the inner function/block has access to the variables declared in its outer function/block. This access is possible because of lexical scoping.
 - **Arrow functions in JavaScript do not have their own `this`** - Arrow functions, unlike regular functions, do not have their own `this`, `arguments`, `super`, or `new`.target bindings. Instead, they inherit these bindings from the enclosing lexical scope.
+- **Iterator in JavaScript** - An iterator is an object that defines a sequence and potentially a return value upon its termination. It is a protocol that allows objects to define their iteration behavior, such as what values are looped over in a `for...of` loop.
+
+Below is how we can create an Iterator:
+
+```javascript
+let iterableObj = {
+  data: [1, 2, 3],
+  [Symbol.iterator]: function () {
+    let index = 0;
+    return {
+      next: () => {
+        if (index < this.data.length) {
+          return { value: this.data[index++], done: false };
+        } else {
+          return { value: undefined, done: true };
+        }
+      },
+    };
+  },
+};
+
+let iterator = iterableObj[Symbol.iterator]();
+
+console.log(iterator.next()); // Logs: { value: 1, done: false }
+console.log(iterator.next()); // Logs: { value: 2, done: false }
+console.log(iterator.next()); // Logs: { value: 3, done: false }
+console.log(iterator.next()); // Logs: { value: undefined, done: true }
+```

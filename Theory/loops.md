@@ -26,3 +26,30 @@ for (const property in object) {
 // "b: 2"
 // "c: 3"
 ```
+
+## for...of
+
+The `for...of` statement creates a loop Iterating over iterable objects (including Array, Map, Set, arguments object and so on), invoking a custom iteration hook with statements to be executed for the value of each distinct property.
+
+**Syntax**
+
+```javascript
+for (variable of object) statement;
+```
+
+The following example shows the difference between a for...of loop and a for...in loop. While for...in iterates over property names, for...of iterates over property values:
+
+```javascript
+const arr = [3, 5, 7];
+arr.foo = "hello";
+
+for (const i in arr) {
+  console.log(i);
+}
+// "0" "1" "2" "foo"
+
+for (const i of arr) {
+  console.log(i);
+}
+// Logs: 3 5 7
+```

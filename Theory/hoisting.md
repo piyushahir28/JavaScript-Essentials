@@ -37,3 +37,12 @@ console.log(x); // Outputs: 10
 ### In Simpler Terms:
 
 Hoisting is like a magic trick JavaScript does when it reads your code. Imagine it's moving all variable declarations and function declarations to the top of their respective scope, like they're lifted up. But, there's a twist depending on the type of variable.
+
+Function hoisting only works with function declarations — not with function expressions. The following code will not work:
+
+```javascript
+console.log(square(5)); // ReferenceError: Cannot access 'square' before initialization
+const square = function (n) {
+  return n * n;
+};
+```

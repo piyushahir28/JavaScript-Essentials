@@ -29,3 +29,16 @@ const object1 = {
 console.log(Object.getOwnPropertyNames(object1));
 // Expected output: Array ["a", "b", "c"]
 ```
+
+### toPrecision()
+
+The toPrecision() method of Number values returns a string representing this number to the specified number of significant digits.
+
+```javascript
+let num = 5.123456;
+
+console.log(num.toPrecision()); // '5.123456'
+console.log(num.toPrecision(5)); // '5.1235'
+console.log(num.toPrecision(2)); // '5.1'
+console.log(num.toPrecision(1)); // '5'
+```

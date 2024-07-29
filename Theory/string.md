@@ -188,7 +188,3 @@ console.log(`I feel ${mood.repeat(3)}`);
 
 - Use slice when you need to work with negative indices or want more predictable behavior with respect to the order of arguments.
 - Use substring for simpler extractions without needing negative indices or where argument order is not a concern.
-
-```
-
-```

@@ -2,7 +2,7 @@
 
 These are collections of data which are ordered by an index value. This includes arrays and array-like constructs such as Array objects and TypedArray objects.
 
-### Creating and array:
+### Creating an array:
 
 ```javascript
 const arr1 = new Array(element0, element1, /* …, */ elementN);
